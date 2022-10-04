@@ -1,0 +1,419 @@
+:root {
+
+/* 1. html FG : black */
+    --color1: #000000;
+
+/* 2. html BG : light orange */
+    --color2: #F2614B;
+
+/* 3. wrapper BG : white cream */
+    --color3: #FBF0EC;
+
+/* 4. section1 BG : turquoise; */
+    --color4: #4AB4C3;         
+
+/* 5. border FG : dark orange*/
+    --color5: #EF4328;
+
+/* 6. Gainsboro :   #DCDCDC */
+    --color6: Gainsboro;
+
+/* 7. Snow :   #FFFAFA */
+    --color7: Snow;
+
+/* 8. Sand-like */
+    --color8: #E0876A;
+
+/* 9. code BG : GhostWhite */
+    --color9: #F8F8FF;
+
+}
+
+html {
+    color: var(--color1);
+    background-color: var(--color2);
+    border: 1px solid var(--color4);
+}
+
+body {
+    border: 1px solid var(--color1);        
+    padding: 10px;
+
+}
+
+h3 {
+    color: var(--color1);
+    background-color: var(--color5);
+    height: 66px;
+}
+
+h4 {
+    color: var(--color1);
+    background-color: var(--color8);
+    height: 33px;
+}
+
+table {
+    text-align: left;
+    background-color: var(--color4);
+}
+
+tr {
+    height: 100px;
+    width: 100px;
+}
+
+tr:hover th {
+    background-color: var(--color4);
+}
+
+tr:hover td {
+    color: var(--color7);
+    background-color: var(--color4);
+}
+
+.wrapper {
+    background-color: var(--color5);
+    border: 1px solid var(--color1);
+    padding: 10px;
+}
+
+.s1-1 {
+    background-color: var(--color4);
+    border: 1px solid var(--color1);
+}
+
+.s1-2 {
+    background-color: var(--color9);
+    border: 1px solid var(--color1);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-family: Verdana;
+    font-variant: small-caps;
+}
+
+.s2 {
+    background-color: var(--color3);
+    border: 1px solid var(--color1);
+}
+
+.tr1 {
+    background-color: var(--color6);
+}
+
+.tr2 {
+    background-color: var(--color7);
+}
+
+.jacket {
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    border: 1px solid var(--color5);
+}
+
+#fs5lh7 {
+    font-size: 5px;
+    line-height: 7px;
+}
+
+#fs7lh9 {
+    font-size: 7px;
+    line-height: 9px;
+}
+
+#fs9lh12 {
+    font-size: 9px;
+    line-height: 12px;
+}
+
+#fs12lh16 {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#fs16lh21 {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#fs21lh28 {
+    font-size: 21px;
+    line-height: 28px;
+}
+
+#fs28lh37 {
+    font-size: 28px;
+    line-height: 37px;
+}
+
+#fs37lh50 {
+    font-size: 37px;
+    line-height: 50px;
+}
+
+#fs50lh67 {
+    font-size: 50px;
+    line-height: 67px;
+}
+
+#fs67lh83 {
+    font-size: 67px;
+    line-height: 83px;
+}
+
+#fs83lh67 {
+    font-size: 83px;
+    line-height: 67px;
+}
+
+.jacket2 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    border: 1px solid var(--color5);
+}
+
+
+.ff0 {
+    font-family: Times;
+}
+.ff1 {
+    font-family: "Times New Roman";
+}
+.ff2 {
+    font-family: Georgia;
+}
+.ff3 {
+    font-family: Arial;
+}
+.ff4 {
+    font-family: Verdana;
+}
+.ff5 {
+    font-family: "Courier New";
+}
+.ff6 {
+    font-family: "Lucida Console";
+}
+
+.fst1 {
+    font-style: normal;
+}
+
+.fst2 {
+    font-style: italic;
+}
+
+.fst3 {
+    font-style: oblique;
+}
+
+.fsz16 {
+    font-size: 16px;
+}
+
+.fsz40 {
+    font-size: 40px;
+}
+
+.fsz100 {
+    font-size: 100px;
+}
+
+.fsz50 {
+    font-size: 50px;
+}
+
+.fsz10 {
+    font-size: 10px;
+}
+
+.fsz20 {
+    font-size: 20px;
+}
+
+.fsz35 {
+    font-size: 35px;
+}
+
+.fsz32 {
+    font-size: 32px;
+}
+
+.fsz24 {
+    font-size: 24px;
+}
+
+.h3 {
+    background-color: var(--color7);
+    height: 22px;
+}
+
+.fsz18-72 {
+    font-size: 18.72px;
+}
+
+.h4 {
+    background-color: var(--color7);
+    height: 18px;
+}
+
+.fsz13-28 {
+    font-size: 13.28px;
+}
+
+.fsz10-72 {
+    font-size: 10.72px;
+}
+
+.fsz0-25 {
+    font-size: 0.25em;
+}
+
+.fsz0-5 {
+    font-size: 0.5em;
+}
+
+.fsz1 {
+    font-size: 1em;
+}
+
+.fsz1-5 {
+    font-size: 1.5em;
+}
+
+.fsz2 {
+    font-size: 2em;
+}
+
+.fsz2-5 {
+    font-size: 2.5em;
+}
+
+.fsz3 {
+    font-size: 3em;
+}
+
+.fsz3-5 {
+    font-size: 3.5em;
+}
+
+.fsz4 {
+    font-size: 4em;
+}
+
+.fsz4-5 {
+    font-size: 4.5em;
+}
+
+.fsz5 {
+    font-size: 5em;
+}
+
+.fsz5-5 {
+    font-size: 5.5em;
+}
+
+.fsz10 {
+    font-size: 10em;
+}
+
+.code {
+    background-color: var(--color9);
+}
+
+.code body {
+    font-size: 100%;
+}
+
+.code h1 {
+    font-size: 2.5em;
+}
+
+.code h2 {
+    font-size: 1.875em;
+}
+
+.code p {
+    font-size: 0.875em;
+}
+
+p.normal {
+    font-weight: normal;
+}
+
+p.light {
+    font-weight: lighter;
+}
+
+p.thick {
+    font-weight: bold;
+}
+
+p.thicker {
+    font-weight: 900;
+}
+
+p.normalcaps {
+    font-variant: normal;
+}
+
+p.smallcaps {
+    font-variant: small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
